@@ -116,7 +116,7 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
     ) {
         // Kolom 1
         Column {
-            Text(text = "Komponen1Kolom1")
+            Text(text = "Komponen1Kolom1", fontSize = 16.sp, fontWeight = FontWeight.Bold)
             Text(text = "Komponen2Kolom1")
             Text(text = "Komponen3Kolom1")
         }
