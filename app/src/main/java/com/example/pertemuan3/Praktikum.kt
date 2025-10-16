@@ -28,10 +28,18 @@ import androidx.core.content.contentValuesOf
 @Composable
 fun TataletakColomn (modifier: Modifier) {
     Column(modifier = Modifier.padding(start = 20.dp, top = 20.dp, end = 20.dp)){
-        Text("component1")
-        Text("component2")
-        Text("component3")
-        Text("component4")
+        Text("component1",
+            color = Color.Blue
+        )
+        Text("component2",
+            color = Color.Blue
+        )
+        Text("component3",
+            color = Color.Blue
+        )
+        Text("component4",
+            color = Color.Blue
+        )
     }
 }
 
